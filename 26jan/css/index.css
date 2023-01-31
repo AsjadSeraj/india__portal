@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+
+/* Footer */
+.footer {
+  color: rgb(202, 11, 11);
+  padding: 22px 0;
+  text-align: center;
+  min-height: 118px;
+  /* background-color: #007acc; */
+  font-size: 14px;
+}
+
+.footer-logo {
+  font-weight: 400;
+  font-size: 32px;
+}
+
+.copyright p {
+  font-size: 16px;
+}
+
+.footer .social {
+  margin: 20px 0;
+}
+
+.footer .social-logo .fa-instagram {
+  color: hsl(0, 95%, 38%);
+}
+
+.footer .social-logo .fa-github {
+  color: #242623;
+}
+
+.footer .social-logo .fa-linkedin-in {
+  color: #1474d4;
+}
+
+.footer .social-logo .fa-google {
+  color: #db6018;
+}
+
+.footer .social-logo .fa-facebook {
+  color: #115cd6;
+}
+
+.footer .social-logo .fa-twitter {
+  color: #1dcaff;
+}

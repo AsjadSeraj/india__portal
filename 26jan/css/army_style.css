@@ -1,0 +1,65 @@
+
+.service-category-boxes {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow-y: scroll;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.individual-service-boxes {
+    width: max(250px, 22vw);
+    border-radius: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem;
+    justify-content: space-evenly;
+    background-color: rgba(125, 104, 104, 0.5);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    transition: width 0.2s, height 0.4s;
+    overflow: hidden;
+}
+
+.individual-service-boxes:hover {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
+}
+
+.individual-service-boxes h1 {
+    text-align: center;
+    font-family: "poppins", sans-serif;
+    font-size: 2.1875em;
+    margin-top: 1.5vh;
+}
+
+.individual-service-boxes:nth-child(2) h1 {
+    font-size: 2.1rem;
+}
+
+.explore-button {
+    width: min(40%, 10rem);
+    height: max-content;
+    border-radius: 2rem;
+    font-family: "roboto", sans-serif;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    border-style: none;
+    background-color: black;
+    cursor: pointer;
+    opacity: 0.5;
+    text-align: center;
+    padding: 15px 0;
+}
+.explore-button a {
+    color: white;
+    text-decoration: none;
+}
+
+.explore-button:hover {
+    opacity: 1;
+}
